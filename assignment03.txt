@@ -1,0 +1,196 @@
+    1  sudo apt update
+    2  sudo apt install spice-vdagent spice-webdavd
+    3  sudo reboot
+    4  history
+    5  pwd
+    6  mkdir weissman
+    7  ls
+    8  cd weissman
+    9  cd ..
+   10  cd /home/antman/weissman
+   11  mkdir jonathan scott
+   12  cd jonathan
+   13  cd ../scott
+   14  cd ../..
+   15  cd ~/weissman/jonathan
+   16  touch cscprof
+   17  ls
+   18  cp cscprof ../scott
+   19  ls ../scott
+   20  cp cscprof ../scott/cscprof2
+   21  ls ../scott
+   22  cp ../scott/cscprof ./professor
+   23  ls
+   24  cd
+   25  mv weissman profweissman
+   26  ls
+   27  touch oldname
+   28  mv oldname newname
+   29  ls
+   30  rm newname
+   31  ls
+   32  mkdir hellogoodbye
+   33  rmdir hellogoodbye
+   34  rmdir profweissman/scott
+   35  rm profweisman/scott
+   36  rm profweissman/scott
+   37  rm -r profweissman/scott
+   38  echo Jonathan Scott Weissman
+   39  echo Jonathan Scott Weismann > rochester
+   40  cat rochester
+   41  echo RIT > rochester
+   42  cat rochester
+   43  echo FLCC >> rochester
+   44  echo SU >> rochester
+   45  cat rochester
+   46  tac rochester
+   47  sort rochester
+   48  sudo adduser jsw
+   49  sudo passwd jsw
+   50  su jsw
+   51  whoami
+   52  vim bob
+   53  bob
+   54  ./bob
+   55  ls -l bob
+   56  chmod 744 bob
+   57  ls -l bob
+   58  ./bob
+   59  mkdir monroe
+   60  ls -l | grep monroe
+   61  chmod 754 monroe
+   62  ls -l | grep monroe
+   63  cd monroe
+   64  echo meadowbrook > brighton
+   65  cat brighton 
+   66  ls -l brighton
+   67  su jsw
+   68  cd ..
+   69  chmod 755 monroe
+   70  ls -l | grep monroe
+   71  cd monroe
+   72  su jsw
+   73  cd ..
+   74  chmod 777 monroe
+   75  ls -l | grep monroe
+   76  cd monroe
+   77  chmod 777 brighton 
+   78  cat newyork
+   79  cat brighton
+   80  ls -l | brighton 
+   81  n
+   82  ls -l | brighton
+   83  su jsw 
+   84  cd ..
+   85  ls -l /user/bin/passwd
+   86  ls -l /usr/bin/passwd
+   87  mkdir sgid
+   88  chmod 2767 sgid
+   89  ls -l | grep sgid
+   90  chmod 2777 sgid
+   91  ls -l | grep sgid
+   92  su jsw
+   93  mkdir stickybit
+   94  cmod 1777 stickybit
+   95  chmod 1777 stickybit
+   96  ls -l | grep stickybit
+   97  cd stickybit
+   98  echo hi > file1
+   99  su jsw
+  100  cd ..
+  101  echo date > pizza
+  102  ls -l pizza
+  103  chmod 744 pizza
+  104  ls -l pizza
+  105  sudo chown jsw pizza
+  106  ls -l pizza
+  107  sudo chgrp jsw pizza
+  108  ls -l pizza
+  109  su jsw
+  110  sudo chown antman : antman pizza
+  111  sudo chown antman:antman pizza
+  112  ls -l 
+  113  su jsw
+  114  sudo addgroup pentesters1
+  115  sudo groupdel pentesters1
+  116  su jsw
+  117  sudo groupdel pentesters1
+  118  sudo addgroup pentesters1
+  119  sudo addgroup pentesters2
+  120  sudo usermod -a -G pentesters1,pentesters2 jsw
+  121  grep pentesters /etc/group
+  122  groups jsw
+  123  cat /etc/group
+  124  sudo usermod  -G pentesters1 jsw
+  125  groups jsw
+  126  sudo usermod -a -G jsw pentesters2 
+  127  sudo usermod -a -G pentesters2 jsw
+  128  groups jsw
+  129  sudo adduser alice 
+  130  sudo deluser alice
+  131  sudo addgroup cryptographers
+  132  sudo delgroup cryptographers 
+  133  cd /
+  134  ls -a
+  135  ls -F
+  136  ls -R
+  137  ls -R | more
+  138  ls -R | less
+  139  clear
+  140  history
+  141  clear
+  142  find / -name ping 2>&1 | grep -v "Permission denied"
+  143  man find
+  144  vim months
+  145  clear
+  146  history
+  147  find / months
+  148  vim months
+  149  head months
+  150  vim months
+  151  find / months
+  152  head months
+  153  head -7 months
+  154  head -n 7 months
+  155  head -n -3 months
+  156  tail months
+  157  tail -3 months
+  158  tail -n 3
+  159  tail -n 3 months
+  160  tail +3 months
+  161  tail -n +3 months
+  162  clear
+  163  history
+  164  clear
+  165  cat /etc/passwd
+  166  sudo cat /etc/shadow file
+  167  sudo john
+  168  man john
+  169  sudo john --test
+  170  sudo adduser weissman
+  171  deluser weissman
+  172  history
+  173  sudo deluser weissman
+  174  sudo assuser weissman
+  175  sudo adduser weissman
+  176  sudo adduser upper
+  177  sudo adduser lower
+  178  sudo adduser mixed
+  179  sudo adduser story
+  180  cat /etc/passwd
+  181  sudo cat /etc/shadow
+  182  man unshadow 
+  183  sudo unshadow
+  184  sudo unshadow /etc/passwd /ete/shadow > rochester.txt
+  185  pwd
+  186  cd
+  187  sudo unshadow /etc/passwd /ete/shadow > rochester.txt
+  188  cat rochester.txt
+  189  sudo unshadow /etc/passwd /etc/shadow > rochester.txt
+  190  cat rochester.txt
+  191  sudo john --worlist=/usr/share/john/password.lst --format=crypt rochester.txt
+  192  sudo john --wordlist=/usr/share/john/password.lst --format=crypt rochester.txt
+  193  sudo john --show --format=crypt rochester.txt
+  194  sudo rm /root/.john/john.pot
+  195  clear
+
